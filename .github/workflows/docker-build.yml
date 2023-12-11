@@ -19,6 +19,9 @@ env:
 jobs:
   cpu-base:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
     strategy:
       fail-fast: false
       matrix:
@@ -83,6 +86,9 @@ jobs:
     
   nvidia-base:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
     strategy:
       fail-fast: false
       matrix:
@@ -157,6 +163,9 @@ jobs:
 
   amd-base:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
     strategy:
       fail-fast: false
       matrix:
