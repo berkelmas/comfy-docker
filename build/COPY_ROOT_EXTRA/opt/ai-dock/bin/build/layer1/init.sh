@@ -5,7 +5,7 @@
 NODES=(
     "https://github.com/Acly/comfyui-tooling-nodes",
     "https://github.com/Fannovel16/comfyui_controlnet_aux",
-    "easy-comfy-nodes",
+    "https://github.com/wmatson/easy-comfy-nodes",
     #"https://github.com/ltdrdata/ComfyUI-Manager"
 )
 
